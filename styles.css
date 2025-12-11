@@ -16,7 +16,7 @@ body{
 }
 
 
-h1{ 
+.titulo_uno{ 
     font-family: "oswald", serif;
     text-align: center;
 
@@ -24,6 +24,21 @@ h1{
 
     animation: animacion_titulo 1.5s ease-in-out infinite;
 
+
+    
+}
+
+.titulo_dos{
+   
+    color: white;
+
+    position: relative;
+    top: -61px;
+    font-family: "oswald", serif;
+    text-align: center;
+
+    font-variation-settings: "wght" 0;
+    animation: animacion_titulo 1.5s ease-in-out infinite;
 
     
 }
@@ -46,4 +61,5 @@ h1{
 
     
 }
+
 
