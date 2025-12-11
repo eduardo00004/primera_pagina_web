@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "oswald";
+    src: url("fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@keyframes animacion_titulo{
+
+    0% {font-variation-settings: "wght" 0;}
+    50% {font-variation-settings: "wght" 500;}
+    100% {font-variation-settings: "wght" 0;}
+}
+h1{ 
+    font-family: "oswald", serif;
+    text-align: center;
+
+    font-variation-settings: "wght" 0;
+
+    animation: animacion_titulo 1.5s ease-in-out infinite;
+
+
+    
+}
+
 .imagen_uno{
     
     display: block;
