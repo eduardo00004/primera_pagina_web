@@ -10,6 +10,22 @@
     100% {font-variation-settings: "wght" 0;}
 }
 
+@media (max-width: 600px){
+
+    .titulo_uno, .titulo_dos{
+
+        font-size: 8vw;
+
+    }
+    
+    .mario_luigi{
+
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
 body{
     background-color: rgb(107, 139, 158);
 
