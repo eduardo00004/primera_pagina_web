@@ -1,0 +1,19 @@
+.imagen_uno{
+    
+    display: block;
+
+    height: 280px;
+    width: 270px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    object-fit: cover;
+    
+    filter: drop-shadow(7px -7px 1.5px black);
+
+
+
+    
+}
+
